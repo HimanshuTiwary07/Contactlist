@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+section{
+    margin-top: 2rem;
+}
+
+#main-layout{
+    height: 74%;
+}
+
+#eachItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightblue;
+    width: 30%;
+    border: 1px solid whitesmoke;
+    padding: 10px;
+}
+
+#actionItem{
+    justify-content: center;
+    width: 20%;
+}
+
+#eachItemContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: auto;
+    
+}
+
+#addContactForm{
+    text-align: center;
+    margin-top: 1rem;
+}
+
